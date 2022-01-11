@@ -5,5 +5,6 @@ https://www.linkedin.com/in/matheus-honorio-b7952817b/
 -------------------------------------------------------------------------------------------
 
 A Ideia principal é utilizar HTML E CSS de forma básica para simular uma página de captura de dados de um Hospital
-As informações serão passadaas pro Back por meio do atributo GET
+As informações serão passadaas pro Back por meio do atributo GET por conta de ser informações não sigilosas como senhas. 
 
+Para visualizar o projeto: Acesse: https://mathhono.github.io/Projeto-Captura-Hospital/
