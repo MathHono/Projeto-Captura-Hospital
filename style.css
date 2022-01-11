@@ -1,0 +1,196 @@
+    /*******************************/
+    /*Fontes */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+    /*Fonte Utilizada no nome*/
+    
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+    /*Fonte para texto comum */
+    /* Tags Nativas */
+    
+    * {
+        padding: 0;
+        border: 0;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(68deg, #246a6b 20.65%, #13bcc2 85.65%);
+    }
+    
+    header {
+        /*Disposição dos ítens*/
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        /* Coloração e Propriedades de Textp   */
+        /*background-color: #26c3c9;*/
+        color: white;
+        padding: 5px;
+        text-align: left;
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    
+    section {
+        border-radius: 25px;
+        margin: 10% auto;
+        padding: 25px;
+        background-image: url(./images/fundo.jpg);
+        background-size: cover;
+        overflow: hidden;
+        width: 90%;
+        height: 900px;
+        /*Posicionamento */
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    title {
+        font-size: 26px;
+        text-align: left;
+    }
+    
+    h2 {
+        font-size: 16px;
+    }
+    
+    h3 {
+        color: #25ce0f;
+        font-size: 25px;
+        font-style: italic;
+        font-style: bold;
+    }
+    
+    footer {
+        padding: 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+    /* Aplicando estilo a tag input e select ao mesmo tempo */
+    
+    input,
+    select {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        border: none;
+        margin-bottom: 10px;
+    }
+    /* Aplicando Estilo apenas a Select*/
+    
+    select {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        background-image: url(./images/arrow.jpg);
+        background-repeat: no-repeat;
+        /* Aqui utilizei uma definição de posição para dois eixos; X e Y */
+        /* Porém, se eu quiser posso utilizar num comando apenas       */
+        /* background-position: calc(100x - 10px) center     */
+        background-position-x: calc(100% - 10px);
+        background-position-y: center;
+    }
+    /*  Customização específico para o botão Submit */
+    
+    .inscrevase {
+        color: white;
+        background-color: #0f4bce;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    /* Classes */
+    
+    .conteiner {
+        max-width: 1000px;
+        margin-top: 500px;
+        border-radius: 15px;
+    }
+    
+    .formcontainer {
+        overflow: hidden;
+        border-radius: 35px;
+        max-width: 450px;
+        max-height: 650px;
+        background-color: #19b3ce9a;
+        padding: 35px;
+    }
+    
+    .Logo_Header {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .Logo_Container {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .imagem {
+        width: 160px;
+    }
+    
+    .sobre {
+        font-size: 22px;
+    }
+    
+    .custom {
+        font-style: italic;
+        font-variant: small-caps;
+    }
+    
+    .assinatura {
+        text-decoration: dashed;
+        color: antiquewhite;
+    }
+    
+    .Links {
+        /* Como customizar Links */
+        text-decoration: none;
+        /* Utilizado para retirar o sublinhado da palavra */
+        color: rgb(2, 175, 60);
+        /* Selecionar a cor do Link  */
+        cursor: alias;
+        /*Criando uma animação ao passa o mouse em cima*/
+        padding: 1px;
+    }
+    
+    .Links:visited {
+        text-decoration: none;
+        /* Utilizado para retirar o sublinhado da palavra */
+        color: rgb(7, 72, 124);
+        /* Selecionar a cor do Link  */
+        cursor: alias;
+        /*Criando uma animação ao passa o mouse em cima*/
+        padding: 1px;
+    }
+    
+    .div_container {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .sub {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    
+    .mb1,
+    .mb2 {
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+    
+    .mb1 {
+        font-size: 20px;
+    }
+    
+    .mb2 {
+        font-size: 15px;
+    }

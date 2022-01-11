@@ -1,0 +1,9 @@
+ Ola! Sou o Matheus, esse site foi criado para aplicacao de meus
+conhecimentos adquiridos em um curso de desenvolvimento web + meus estudos da faculdade
+para mais informacaoes acesse meu linkedin! 
+https://www.linkedin.com/in/matheus-honorio-b7952817b/
+-------------------------------------------------------------------------------------------
+
+A Ideia principal é utilizar HTML E CSS de forma básica para simular uma página de captura de dados de um Hospital
+As informações serão passadaas pro Back por meio do atributo GET
+
